@@ -2,7 +2,7 @@
     "sms":{
         "91":[
             {
-                "name":"confirmtkt",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://securedapi.confirmtkt.com/api/platform/register",
                 "params":{
@@ -12,7 +12,7 @@
                 "identifier":"false"
             },
             {
-                "name":"justdial",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://t.justdial.com/api/india_api_write/18july2018/sendvcode.php",
                 "params":{
@@ -21,7 +21,7 @@
                 "identifier":"sent"
             },
             {
-                "name":"frotels",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://www.frotels.com/appsendsms.php",
                 "data":{
@@ -30,7 +30,7 @@
                 "identifier":"sent"
             },
             {
-                "name":"gapoon",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://www.gapoon.com/userSignup",
                 "data":{
@@ -41,7 +41,7 @@
                 "identifier":"1"
             },
             {
-                "name":"housing",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://login.housing.com/api/v2/send-otp",
                 "data":{
@@ -50,7 +50,7 @@
                 "identifier":"Sent"
             },
             {
-                "name":"porter",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://porter.in/restservice/send_app_link_sms",
                 "data":{
@@ -61,7 +61,7 @@
                 "identifier":"true"
             },
             {
-                "name":"cityflo",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://cityflo.com/website-app-download-link-sms/",
                 "data":{
@@ -70,7 +70,7 @@
                 "identifier":"sent"
             },
             {
-                "name":"nnnow",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://api.nnnow.com/d/api/appDownloadLink",
                 "data":{
@@ -79,7 +79,7 @@
                 "identifier":"true"
             },
             {
-                "name":"ajio",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://login.web.ajio.com/api/auth/signupSendOTP",
                 "data":{
@@ -93,7 +93,7 @@
                 "identifier":"1"
             },
             {
-                "name":"happyeasygo",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://www.happyeasygo.com/heg_api/user/sendRegisterOTP.do",
                 "params":{
@@ -102,7 +102,7 @@
                 "identifier":"true"
             },
             {
-                "name":"unacademy",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://unacademy.com/api/v1/user/get_app_link/",
                 "data":{
@@ -111,7 +111,7 @@
                 "identifier":"sent"
             },
             {
-                "name":"treebo",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://www.treebo.com/api/v2/auth/login/otp/",
                 "data":{
@@ -120,7 +120,7 @@
                 "identifier":"sent"
             },
             {
-                "name":"mobikwik",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://webapi.mobikwik.com/p/account/otp/cell/v2",
                 "data":{
@@ -132,7 +132,7 @@
                 "identifier":"true"
             },
             {
-                "name":"airtel",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://www.airtel.in/referral-api/core/notify",
                 "params":{
@@ -142,7 +142,7 @@
                 "identifier":"Success"
             },
             {
-                "name":"pharmeasy",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://pharmeasy.in/api/auth/requestOTP",
                 "json":{
@@ -151,7 +151,7 @@
                 "identifier":"resendSmsCounter"
             },
             {
-                "name":"mylescars",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://www.mylescars.com/usermanagements/chkContact",
                 "data":{
@@ -160,7 +160,7 @@
                 "identifier":"success@::::"
             },
             {
-                "name":"grofers",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://grofers.com/v2/accounts/",
                 "data":{
@@ -172,7 +172,7 @@
                 "identifier":"We have sent"
             },
             {
-                "name":"dream11",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://api.dream11.com/sendsmslink",
                 "data":{
@@ -183,7 +183,7 @@
                 "identifier":"true"
             },
             {
-                "name":"cashify",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://www.cashify.in/api/cu01/v1/app-link",
                 "params":{
@@ -192,7 +192,7 @@
                 "identifier":"Successfully"
             },
             {
-                "name":"paytm",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://commonfront.paytm.com/v4/api/sendsms",
                 "data":{
@@ -202,7 +202,7 @@
                 "identifier":"202"
             },
             {
-                "name":"kfc-in",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://online.kfc.co.in/OTP/ResendOTPToPhoneForLogin",
                 "headers":{
@@ -217,7 +217,7 @@
                 "identifier":"true"
             },
             {
-                "name":"indialends",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://indialends.com/internal/a/mobile-verification_v2.ashx",
                 "cookies":{
@@ -253,7 +253,7 @@
         ],
         "multi":[
             {
-                "name":"flipkart",
+                "name":"facebook",
                 "method":"POST",
                 "cc_target":"loginId",
                 "url":"https://www.flipkart.com/api/5/user/otp/generate",
@@ -268,7 +268,7 @@
                 "identifier":"emailMask"
             },
             {
-                "name":"qlean",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://qlean.ru/clients-api/v2/sms_codes/auth/request_code",
                 "data":{
@@ -277,7 +277,7 @@
                 "identifier":"request_id"
             },
             {
-                "name":"mailru",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://cloud.mail.ru//api/v2/notify/applink",
                 "data":{
@@ -289,7 +289,7 @@
                 "identifier":"200"
             },
             {
-                "name":"tinder",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://api.gotinder.com/v2/auth/sms/send",
                 "params":{
@@ -302,7 +302,7 @@
                 "identifier":"200"
             },
             {
-                "name":"youla",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://youla.ru/web-api/auth/request_code",
                 "data":{
@@ -311,7 +311,7 @@
                 "identifier":":6"
             },
             {
-                "name":"ivi",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://api.ivi.ru/mobileapi/user/register/phone/v6",
                 "data":{
@@ -320,7 +320,7 @@
                 "identifier":"true"
             },
             {
-                "name":"delitime",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://api.delitime.ru/api/v2/signup",
                 "data":{
@@ -330,7 +330,7 @@
                 "identifier":"true"
             },
             {
-                "name":"icq",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://www.icq.com/smsreg/requestPhoneValidation.php",
                 "data":{
@@ -342,7 +342,7 @@
                 "identifier":"200"
             },
             {
-                "name":"ivitv",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://api.ivi.ru/mobileapi/user/register/phone/v6/",
                 "data":{
@@ -353,7 +353,7 @@
                 "identifier":"true"
             },
             {
-                "name":"indialends",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://indialends.com/internal/a/mobile-verification_v2.ashx",
                 "cookies":{
@@ -387,7 +387,7 @@
                 "identifier":"1"
             },
             {
-                "name":"redbus",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://m.redbus.in/api/getOtp",
                 "params":{
@@ -402,7 +402,7 @@
     "call":{
         "91":[
             {
-                "name":"makaan",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://www.makaan.com/apis/nc/sendOtpOnCall/16257065/{target}",
                 "params":{
@@ -411,7 +411,7 @@
                 "identifier":"2XX"
             },
             {
-                "name":"realestate",
+                "name":"facebook",
                 "method":"POST",
                 "url":"https://www.realestateindia.com/mobile-script/indian_mobile_verification_form.php",
                 "headers":{
@@ -432,7 +432,7 @@
                 "identifier":"Y"
             },
             {
-                "name":"magicbricks",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://api.magicbricks.com/bricks/verifyOnCall.html",
                 "params":{
@@ -441,7 +441,7 @@
                 "identifier":"callmade"
             },
             {
-                "name":"myupchar",
+                "name":"facebook",
                 "method":"GET",
                 "url":"https://www.myupchar.com/user_profile/resend_otp_via_voice",
                 "params":{
